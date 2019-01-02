@@ -1,0 +1,24 @@
+.componente {
+  background-color: #141414;
+  min-height:100vh;
+  padding:5vw 10vh;
+}
+.titulo-categoria{
+  font-size:2em;
+  color:white;
+  margin-left:1vw;
+}
+.pelicula{
+  height:40vh;
+}
+.caratula-pelicula{
+  margin:1vh 1vw ;
+}
+.titulo-pelicula {
+  font-family: 'Raleway', sans-serif;
+}
+.imagen-pelicula{
+ width:20vw;
+ height:50vh;
+}
+

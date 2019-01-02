@@ -1,0 +1,46 @@
+<div class="container-fluid componente">
+  <h4 class="titulo-categoria">Ultimas peliculas</h4>
+  <div class="row">
+    <div class="col-3" *ngFor="let pelicula of cartelera">
+      <div class="caratula-pelicula">
+        <img class="imagen-pelicula" src="https://image.tmdb.org/t/p/w500{{pelicula.poster_path}}" alt="Alternate Text" />
+      </div>
+    </div>
+  </div>
+  <h4 class="titulo-categoria">Acción</h4>
+  <div class="row">
+    <div class="col-3" *ngFor="let pelicula of accion">
+      <div class="caratula-pelicula">
+        <img class="imagen-pelicula" src="https://image.tmdb.org/t/p/w500{{pelicula.poster_path}}" alt="Alternate Text" />
+        
+      </div>
+    </div>
+  </div>
+  <h4 class="titulo-categoria">Terror</h4>
+  <div class="row">
+    <div class="col-3" *ngFor="let pelicula of terror">
+      <div class="caratula-pelicula">
+        <img class="imagen-pelicula" src="https://image.tmdb.org/t/p/w500{{pelicula.poster_path}}" alt="Alternate Text" />
+        
+      </div>
+    </div>
+  </div>
+  <h4 class="titulo-categoria">Comedia</h4>
+  <div class="row">
+    <div class="col-3" *ngFor="let pelicula of comedia">
+      <div class="caratula-pelicula">
+        <img class="imagen-pelicula" src="https://image.tmdb.org/t/p/w500{{pelicula.poster_path}}" alt="Alternate Text" />
+        
+      </div>
+    </div>
+  </div>
+  <h4 class="titulo-categoria">Animadas</h4>
+  <div class="row">
+    <div class="col-3" *ngFor="let pelicula of animadas">
+      <div class="caratula-pelicula">
+        <img class="imagen-pelicula" src="https://image.tmdb.org/t/p/w500{{pelicula.poster_path}}" alt="Alternate Text" />
+        
+      </div>
+    </div>
+  </div>
+</div>

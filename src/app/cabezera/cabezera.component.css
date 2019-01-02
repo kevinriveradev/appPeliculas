@@ -1,0 +1,11 @@
+header{
+  padding:3vh 10vh;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  background-color:black;
+}
+.logo {
+  color:red;
+  font-family: 'Major Mono Display', monospace;
+}
